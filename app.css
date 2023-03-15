@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #231651;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6fff6;
+}
+header {
+  text-align: center;
+  font-family: "Rubik Iso", cursive;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+#calc .fail {
+  border: 3px solid #ff8484 !important;
+}
+#calc .input {
+  width: 120px;
+  height: 60px;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 2rem;
+  border: 2px solid #4dccbd;
+  background-color: #4dccbd5b;
+}
+#oprator,
+#equal {
+  padding: 0 16px;
+  font-weight: bold;
+}
+
+.frame_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 0;
+}
+.frame_btn button {
+  padding: 8px 18px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #2374ab;
+  border-radius: 5px;
+}
