@@ -50,3 +50,9 @@ function bagi() {
     total.value = val_1 / val_2;
   }
 }
+function pangkat() {
+  if (getValue()) {
+    oprator.innerHTML = "^";
+    total.value = val_1 ** val_2;
+  }
+}
